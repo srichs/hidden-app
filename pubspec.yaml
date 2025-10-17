@@ -1,0 +1,17 @@
+name: hidden_app_calculator
+version: 0.1.0
+publish_to: 'none'
+description: A Flutter calculator with a hidden app trigger.
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^2.4.0
+  crypto: ^3.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+flutter:
+  uses-material-design: true
